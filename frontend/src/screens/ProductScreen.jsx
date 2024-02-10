@@ -70,6 +70,9 @@ const ProductScreen = () => {
       <Link className='btn btn-light my-3' to='/'>
         Go Back
       </Link>
+      <Link className=" btn btn-light my-3" to="http://127.0.0.1:5000/">
+      tryout
+    </Link>
       {isLoading ? (
         <Loader />
       ) : error ? (
